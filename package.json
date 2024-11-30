@@ -22,16 +22,23 @@
     "fix:prettier": "prettier -w ."
   },
   "dependencies": {
+    "@astrojs/react": "^3.6.2",
     "@astrojs/rss": "^4.0.7",
     "@astrojs/sitemap": "^3.1.6",
     "@astrolib/analytics": "^0.5.0",
     "@astrolib/seo": "^1.0.0-beta.5",
     "@fontsource-variable/inter": "^5.0.20",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.1.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
     "astro": "^4.15.1",
     "astro-embed": "^0.7.2",
     "astro-icon": "^1.1.1",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "unpic": "^3.18.0"
   },
   "devDependencies": {
@@ -61,7 +68,7 @@
     "reading-time": "^1.5.0",
     "sharp": "0.33.5",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss": "^3.4.10",
+    "tailwindcss": "^3.4.15",
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.3.0",
     "unist-util-visit": "^5.0.0"
