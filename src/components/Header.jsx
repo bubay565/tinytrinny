@@ -23,7 +23,7 @@ export default function HeaderNav() {
             <span className="sr-only">Your Company</span>
             <img
               className="h-40 w-auto"
-              src="src/assets/images/tinytrinny-logo.png"
+              src="/images/tinytrinny-logo.png"
               alt=""
             />
           </a>

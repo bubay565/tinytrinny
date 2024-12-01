@@ -10,6 +10,7 @@ import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
 import type { AstroIntegration } from 'astro';
+import vercel from '@astrojs/vercel/static';
 
 import astrowind from './vendor/integration';
 
@@ -78,4 +79,14 @@ export default defineConfig({
       },
     },
   },
+
+  adapter: vercel({
+    imageService: true,
+    imagesConfig: {
+      sizes: [320, 640, 1280],
+    },
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
 });

@@ -102,7 +102,7 @@ export default function Example() {
       <div className="relative isolate overflow-hidden pt-14 bg-gradient-to-r from-fuchsia-500 via-purple-500 to-indigo-500 opacity-50">
         <img
           alt=""
-          src="src/assets/images/baby_play.jpg"
+          src="/images/baby_play.jpg"
           className="absolute inset-0 -z-10 size-full object-cover "
         />
         <div

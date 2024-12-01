@@ -6,7 +6,7 @@ const posts = [
       description:
         'Navigating the breastfeeding journey can be challenging. Our lactation consulting service offers personalized support to help you establish a successful breastfeeding experience. Our trained consultants provide evidence-based advice on positioning, latch techniques, and frequency of feeds, ensuring both you and your baby feel comfortable and confident. Whether you are facing difficulties or simply want to optimize your breastfeeding routine, our compassionate approach will empower you. Together, we’ll create a tailored plan that suits your unique needs, fostering a positive breastfeeding relationship that benefits both you and your little one.',
       imageUrl:
-        'src/assets/images/mum_cuddling_baby.jpg',
+        '/images/mum_cuddling_baby.jpg',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Marketing', href: '#' },
@@ -25,7 +25,7 @@ const posts = [
         description:
           `Baby-led weaning (BLW) is a popular approach that allows infants to explore solid foods at their own pace. Our guidance helps you introduce this method safely and effectively. We provide practical tips on food choices, preparation techniques, and meal ideas that cater to your baby's developmental stage. Our experts address common concerns and offer strategies to create a positive mealtime environment. With our support, you’ll foster your child's independence and love for food while ensuring they receive the essential nutrients they need. Start this exciting journey and watch your baby thrive as they discover the joys of self-feeding!`,
         imageUrl:
-          'src/assets/images/baby_wean.jpg',
+          '/images/baby_wean.jpg',
       },
       {
         id: 3,
@@ -34,7 +34,7 @@ const posts = [
         description:
           `Choosing formula feeding doesn’t mean compromising on your baby’s nutrition. Our formula feeding support service provides you with the knowledge and confidence to make informed choices. We help you select the right formula type and feeding schedule tailored to your baby's needs. Our experts will guide you on preparation, storage, and safe feeding practices to ensure a healthy start for your little one. We also address any concerns you may have about transitioning from breastfeeding to formula. With our dedicated assistance, you’ll navigate this journey smoothly, ensuring your baby receives the nourishment they deserve.`,
         imageUrl:
-          'src/assets/images/bottle_feed.jpg',
+          '/images/bottle_feed.jpg',
       },
   ]
   
